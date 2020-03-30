@@ -1,0 +1,46 @@
+table{
+	border: 1px solid #111;
+}
+
+
+/*#tr_id{
+	border: 2px solid #303333;
+	background-color: #CCC; 
+	margin: 0px -5px 0px -5px;
+	padding: 0px 0px 0px 0px;
+}*/
+
+#container_id, 
+#container_name, 
+#container_level, 
+#container_description,
+#container_power, 
+#container_attack, 
+#container_armor, 
+#container_damage,
+#container_mitigation, 
+#container_played, 
+#container_victory, 
+#container_defeat,
+#container_draw{
+	background-color: #CCC; 
+	margin: 0px -20px 0px -20px;
+	padding: 0px 0px 0px 0px;
+	
+}
+
+
+/*div:nth-child(odd)*/
+div:nth-child(even){
+	background-color: #DBF3F4; 
+	border: 2px solid #DBF3F4;
+	margin: 0px -2px -2px -2px;
+	padding: 0px 0px 0px 0px;
+}
+
+div:nth-child(odd){
+	background-color: white; 
+	border: 2px solid white;
+	margin: 0px -2px 0px -2px;
+	padding: 0px 0px 0px 0px;
+}
